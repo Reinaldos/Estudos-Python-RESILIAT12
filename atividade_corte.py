@@ -1,0 +1,1 @@
+sentenca = 'qualquer coisa aqui'
