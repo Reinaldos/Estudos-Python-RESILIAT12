@@ -10,7 +10,7 @@ def morteroberto():
     inicio()
 
 def soberoberto():
-    robertorocha = input("O que você faz agora?")
+    robertorocha = input("O que você faz agora?""\n""ação >").lower()
     if "s" in robertorocha:
         print("você subiu em uma das rochas onde o avião estava apoiado!")
         time.sleep(3)
