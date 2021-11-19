@@ -1,3 +1,5 @@
+
+#O CÓDIGO ABAIXO SE REFERE AO PERSONAGEM ROBERTO
 import time
 def finalroberto():
     print("Voce subiu em uma rocha e conseguiu acenar para um Helicóptero")
@@ -71,8 +73,7 @@ def roberto():
         robertofora()
     else:
         print("Tome outra decisão ou vai virar churrasco!")
-    roberto()
-import time
+#O CÓDIGO ABAIXO É REFERENTE AO PERSONAGEM LUANA
 def luananada():
     print('Parabéns, você escapou do urso nadando!'"\n""\n")
     time.sleep(3)
@@ -112,7 +113,7 @@ def morteluana():
     print("você não pensou nas suas decisões, por isso Luana morreu!")
     inicio()
 def luanafogeurso():
-    decisao = input("e agora?!")
+    decisao = input("e agora?!""\n""ação >").lower()
     if "s" in decisao:
         print("O Urso te matou, você não tinha onde subir")
         morteluana()
@@ -195,7 +196,7 @@ def luana():#(CASO O JOGADOR ESCOLHA LUANA)
         print("você não digitou nenuma das opções válidas")
         time.sleep(3)
         luana()
-
+# O CÓDIGO ABAIXO SE REFERE AO PERSONAGEM CARLOS
 def finalcarlos():#(CASO O JOGADOR CONSIGA CHEGAR AO FINAL)
     print("Ao chegar no outro lado do penhasco você avista a praia")
     time.sleep(3)
