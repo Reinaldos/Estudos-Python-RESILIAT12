@@ -1,6 +1,77 @@
+import time
+def finalroberto():
+    print("Voce subiu em uma rocha e conseguiu acenar para um Helicóptero")
+    print("Parabéns você foi resgatado!")
+    time.sleep(3)
+    inicio()
+def morteroberto():
+    print("Você não pensou em suas decisões, isso fez o Roberto morrer!")
+    time.sleep(3)
+    inicio()
 
+def soberoberto():
+    robertorocha = input("O que você faz agora?")
+    if "s" in robertorocha:
+        print("você subiu em uma das rochas onde o avião estava apoiado!")
+        time.sleep(3)
+        finalroberto()
+    elif "a" in robertorocha:
+        print("Você andou até uma das rochas em que o avião se apoiara,ele está entre uma fenda nas rochas ")
+        time.sleep(3)
+        soberoberto()
+    elif "c" in robertorocha:
+        print("Você tentou correr, mas isso fez o avião cair")
+        time.sleep(3)
+        morteroberto()
+    elif "r" in robertorocha:
+        print("Você rastejou até uma rocha em que o avião se apoiara,ele está entre uma fenda nas rochas ")
+        time.sleep(3)
+        soberoberto()
+    elif "p" in robertorocha:
+        print("Não tem o que pegar aqui")
+        time.sleep(3)
+        robertofora()
+    elif "n" in robertorocha:
+        print("Porque você acha que pode nadar sobre um avião em chamas?")
+        time.sleep(3)
+        robertofora()
 
+def robertofora():
+    roberto1 = input("\n""ação >").lower()
+    if "s" in roberto1:
+        print("De cima do avião pegando fogo, não tem onde subir")
+        time.sleep(3)
+    elif "a" in roberto1:
+        print("Você andou até uma das rochas em que o avião se apoiara,ele está entre uma fenda nas rochas ")
+        time.sleep(3)
+        soberoberto()
+    elif "c" in roberto1:
+        print("Você tentou correr, mas isso fez o avião cair")
+        time.sleep(3)
+        morteroberto()
+    elif "r" in roberto1:
+        print("Você rastejou até uma rocha em que o avião se apoiara,ele está entre uma fenda nas rochas ")
+        time.sleep(3)
+        soberoberto()
+    elif "p" in roberto1:
+        print("Não tem o que pegar aqui")
+        time.sleep(3)
+        robertofora()
+    elif "n" in roberto1:
+        print("Porque você acha que pode nadar sobre um avião em chamas?")
+        time.sleep(3)
+        robertofora
 
+    
+def roberto():
+    robertoavião = input("Roberto, o avião está pegando fogo, você precisa sair daí!""\n""ação >").lower()
+    if "s" in robertoavião:
+        print("você subiu por uma das janelas quebradas do avião, mas ainda precisa sair de cima dele")
+        time.sleep(3)
+        robertofora()
+    else:
+        print("Tome outra decisão ou vai virar churrasco!")
+    roberto()
 import time
 def luananada():
     print('Parabéns, você escapou do urso nadando!'"\n""\n")
