@@ -1,20 +1,20 @@
-def acrescenta_fila (fila, elemento):
-    return fila.append(elemento)
+def acrescenta_pilha (pilha, elemento):
+    return pilha.append(elemento)
 
-def verifica_quantidade (fila):
-    print("A quantida de elementos é:", len(fila))
+def verifica_quantidade (pilha):
+    print("A quantida de elementos é:", len(pilha-1))
 
-def verifica_vazia(fila):
-    if fila == []:
-        return "Fila vazia"
+def verifica_vazia(pilha):
+    if pilha == []:
+        return "Pilha vazia"
     else:
-        return "Fila cheia"
+        return "Pilha cheia"
 
-fila = []
+pilha = []
 
 for i in range(0, 20):
-    acrescenta_fila(fila, i)
+    acrescenta_pilha(pilha, i)
 
-print(fila)
-verifica_quantidade(fila)
-print(verifica_vazia(fila))
+print(pilha)
+verifica_quantidade(pilha)
+print(verifica_vazia(pilha))
