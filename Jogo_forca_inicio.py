@@ -1,6 +1,6 @@
 import random
 import time
-def inicio():#FUNÇÃO PARA TITULO DO JOGO E ESCOLHA DOS JOGADORES
+def inicio():#ESSA PARTE CORRESPONDE A PRIMEIRA PARTE DO JOGO, É A PRINCIPAL É A FUNÇÃO INICIO
     print("                                           BEM VINDO AO JOGO DA FORCA!                          ")
     print("                     NESSE JOGO VOCÊ RECEBERÁ UMA DICA E TERÁ DE ADIVINHAR UMA PALAVRA DIGITANDO AS LETRAS")
     print("                         CASO VOCÊ ACERTE AS LETRAS ELAS APARECERÃO NA PALAVRA,MAS CUIDADO!")
@@ -18,6 +18,5 @@ def inicio():#FUNÇÃO PARA TITULO DO JOGO E ESCOLHA DOS JOGADORES
     sorteio = random.choice(lista)
 
     print('Quem corre o risco de ser enforcado é! :', sorteio)
-    return lista
     
-inicio()
+
