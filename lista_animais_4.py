@@ -2,12 +2,12 @@ lista_de_palavras = ['aranha',
 'arara',
 'asno',
 'atum',
-'avestruz'
+'avestruz',
 'bode',
 'boi',
 'borboleta',
 'boto',
-'búfalo'
+'búfalo',
 'capivara',
 'cachorro',
 'camelo',
@@ -22,4 +22,4 @@ lista_de_palavras = ['aranha',
 'gorila',
 'guaxinim',
 'gazela',
-'galinha',]
+'galinha']
